@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="producto.js"></script>
+    <script src="inventario.js"></script>
+    <title>Inventario de productos</title>
+</head>
+<body>
+    <!--GÓMEZ MUÑOZ CAROLINA EDITH -->
+    <div>
+        <h1>Inventario de Productos</h1>
+      </div>
+          <h2>Producto:</h2>
+            <form>
+              <label>Buscar y eliminar por código:</label> <br>
+              <input id="buscador" type="number">
+          <input id="btnBuscar" type="button" value="Buscar">
+          <input id="btnBorrar" type="button" value="Eliminar"> <br>
+            
+                <label>Código:</label>
+                <input id="codigo" type="number" placeholder="Ingrese el código"> <br>
+                <label>Nombre:</label>
+                <input id="nombre" type="text" placeholder=" Ingrese el nombre del Producto"> <br>
+                <label>Costo:</label>
+                <input id="costo" type="number" placeholder="Ingrese el costo del producto"> <br>
+                <label>Cantidad:</label>
+                <input id="cantidad" type="number" placeholder="Ingrese la cantidad del producto"> <br>
+                <label>Posición:</label>
+                <input id="pos" type="number" placeholder=""> <br>
+                <input id="btnAgregar" type="button" value="Añadir">
+                <input id="btnLista" type="button" value="Listar">
+                <input id="btnListaInv" type="button" value="Listar Invertido">
+            </form>
+          <h2>Información:</h2>
+            <p id="info"></p>     
+            <script src="app.js"></script>
+</body>
+</html>
